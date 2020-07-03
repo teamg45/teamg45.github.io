@@ -172,12 +172,45 @@ header {
   position: relative;
 }
 
-.lesson-icon p {
+.lesson-icon img {
+  opacity: 1;
+  transition: .5s ease;
+  /* width: 100%; */
+  height: auto;
+  backface-visibility: hidden;
+}
+
+.lesson-icon:hover img {
+  opacity: 0.3;
+}
+.lesson-icon:hover .text-name {
+  opacity: 1;
+}
+
+.text-name {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+}
+
+.middle {
+  font-family: 'Questrial', sans-serif;
+}
+
+/* .lesson-icon p {
   position: absolute;
   top: 44%;
   width: 100%;
   color: white;
-}
+} */
 
 .txt-contents {
   width: 80%;
