@@ -30,10 +30,10 @@
       <!-- <p>Terima kasih sebesar-besarnya kepada <span class="cfds">Center For Digital Society x Progate</span></p> -->
       <p>Kami menawarkan lingkungan pemrograman yang lengkap untuk mempermudah Anda memulai.</p>
       <div class="btn-wrapper">
-        <a href="#" class="btn signup">Hubungi kami lewat Email!</a>
+        <a href="#" class="btn signup">Daftar dengan Email</a>
         <p>atau</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Hubungi kami lewat Facebook!</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Hubungi kami lewat Twitter!</a>
+        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
       </div>
     </div>
   </div>
@@ -89,13 +89,31 @@
         <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
         <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
       </div>
-      <span class="btn message">Mulai belajar</span>
+      <a href="#" class="btn-message">Mulai belajar</a>
+    </div>
+  </div>
+  <div class="message-contact">
+    <div class="container">
+      <div class="heading">
+        <h2>Apapun jenis laman web yang anda inginkan,kami siap untuk mengerjakannya!</h2>
+        <h3>Info lebih lanjut hubungi kami.</h3>
+      </div>
+      <button onclick="nampilkan()" class="btn-message">Mulai belajar</button>
+      <div class="medsos-item" id="element">
+        <a href="#"  class="fa fa-3x fa-facebook-square contact-fb"></a>
+        <a href="#"  class="fa fa-3x fa-twitter-square contact-tweet"></a>
+        <a href="#"  class="fa fa-3x fa-envelope-square contact-mail"></a>
+      </div>
+     
     </div>
   </div>
   <footer>
     <div class="container">
-      <img src="images/main_footer.png">
-      <p>Learn to code, learn to be creative.</p>
+      <div class="tengah">
+        <img src="images/main_footer.png">
+        <p>Learn to code, learn to be creative.</p>
+      </div>
+        
     </div>
   </footer>
 </body>
@@ -108,5 +126,15 @@
       x.className = "topnav";
     }
   }
+
+  function nampilkan() {
+    var a = document.getElementById("element")
+    if (a.style.display === "none"){
+      a.style.display = "block";
+    } else {
+      a.style.display = "none"
+    }
+  }
   </script>
+
 </html>
