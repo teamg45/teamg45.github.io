@@ -1,4 +1,4 @@
-/* biar image member resize otomatis */
+/* biar image member resize otomatis
 .lesson-icon img{
   width: 200px;
 }
@@ -50,7 +50,7 @@ a {
 
 .top-wrapper h2 {
   opacity: 0.7;
-  /* font-size: 45px; */
+  /* font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
@@ -120,7 +120,7 @@ header {
 
 .logo {
   width: 90px;
-  /* margin-top: px; */
+  /* margin-top: px;
 }
 
 .header-left {
@@ -232,7 +232,7 @@ footer {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* display: none; */
+  /* display: none;
 }
 
 
@@ -248,7 +248,7 @@ footer {
   box-shadow: 0 0 10px #55acee, 0 0 40px #55acee, 0 0 10px #55acee ;
 }
 
-/* Bagian contact */
+/* Bagian contact
 .message-contact {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -289,7 +289,7 @@ footer {
   -webkit-transform: scale(1.5);
 }
 
-/* FOOTER */
+/* FOOTER
 .tengah{
   text-align: center;
   margin: 0 auto;
