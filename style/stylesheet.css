@@ -197,11 +197,13 @@ header {
   text-align: center;
 }
 
+
 .message {
   padding: 15px 40px;
   background-color: #5dca88;
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
+  display: inline-block;
 }
 
 .message:active {
@@ -232,6 +234,69 @@ footer {
   padding: 21px 0;
   /* display: none; */
 }
+
+
+.btn-message{
+  color: white;
+  padding: 12px 24px;
+  display: inline-block;
+  background-color: #2196f3;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.btn-message:hover{
+  box-shadow: 0 0 10px #55acee, 0 0 40px #55acee, 0 0 10px #55acee ;
+}
+
+/* Bagian contact */
+.message-contact {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.message-contact button:active{
+  -webkit-transform: scale(0.8);
+}
+.medsos-item{
+  padding: 15px 0px;
+  margin-top: 25px;
+}
+.contact-fb {
+  color: grey;
+  padding: 0px 20px;
+}
+.contact-fb:hover{
+  color: blue;
+  -webkit-transform: scale(1.5);
+  
+}
+.contact-tweet{
+  color: grey;
+  padding: 0px 20px;
+ 
+}
+.contact-tweet:hover{
+  color:skyblue;
+  -webkit-transform: scale(1.5);
+}
+.contact-mail{
+  color: grey;
+  padding: 0px 20px;
+}
+.contact-mail:hover{
+  color: seagreen;
+  -webkit-transform: scale(1.5);
+}
+
+/* FOOTER */
+.tengah{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(red, green, blue);
+
+
 
 
 .topnav {
@@ -269,6 +334,7 @@ footer {
     float: right;
     display: block;
   }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -282,5 +348,8 @@ footer {
     float: none;
     display: block;
     text-align: left;
+  }
+  .message-contact{
+    margin-top: 15px;
   }
 }
